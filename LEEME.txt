@@ -1,0 +1,1 @@
+Vector Home demo Android. Subir el CONTENIDO de este ZIP a la raiz del repositorio GitHub (no el ZIP). Compilar con Actions. Demo con datos simulados; no conectada a equipos reales. El APK debug no es una version final firmada para distribucion.
