@@ -25,9 +25,10 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      - name: Instalar Android SDK
-        run: |
-          yes | sdkmanager --licenses || true
+      - name:       - name: Instalar Android SDK
+        uses: android-actions/setup-android@v3
+        run:
+          yes | --licenses || true
           sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
       - name: Compilar Vector Home
