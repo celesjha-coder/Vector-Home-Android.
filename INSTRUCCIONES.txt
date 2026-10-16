@@ -1,0 +1,11 @@
+VECTOR HOME - PROYECTO ANDROID PARA COMPILAR APK
+
+Este ZIP NO es una APK. Contiene el proyecto Android y una automatización GitHub Actions que compila una APK de prueba.
+
+1. Subir el contenido descomprimido a un repositorio GitHub.
+2. Abrir Actions > Compilar APK Vector Home > Run workflow.
+3. Descargar el artefacto Vector_Home_APK cuando termine.
+4. Extraer app-debug.apk e instalarlo en Android.
+
+La demo abre sin Internet, y sus datos locales quedan en el teléfono. No es todavía una aplicación conectada a dispositivos ni sincronizada con Supabase.
+APK debug para pruebas, no publicar como app definitiva.
